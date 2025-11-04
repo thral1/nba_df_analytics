@@ -1,0 +1,168 @@
+# NBA Season Configuration
+# Format: Season start, regular season end, playoffs end
+
+seasons:
+  2023-24:
+    regular_season_start: "2023-10-24"
+    regular_season_end: "2024-04-14"
+    playoffs_end: "2024-06-17"
+
+  2022-23:
+    regular_season_start: "2022-10-18"
+    regular_season_end: "2023-04-09"
+    playoffs_end: "2023-06-12"
+
+  2021-22:
+    regular_season_start: "2021-10-19"
+    regular_season_end: "2022-04-10"
+    playoffs_end: "2022-06-16"
+
+  2020-21:
+    regular_season_start: "2020-12-22"
+    regular_season_end: "2021-05-16"
+    playoffs_end: "2021-07-20"
+
+  2019-20:
+    regular_season_start: "2019-10-22"
+    regular_season_end: "2020-03-11"  # COVID suspension
+    playoffs_end: "2020-10-11"  # Bubble
+
+  2018-19:
+    regular_season_start: "2018-10-16"
+    regular_season_end: "2019-04-11"
+    playoffs_end: "2019-06-13"
+
+  2017-18:
+    regular_season_start: "2017-10-17"
+    regular_season_end: "2018-04-12"
+    playoffs_end: "2018-06-08"
+
+  2016-17:
+    regular_season_start: "2016-10-25"
+    regular_season_end: "2017-04-13"
+    playoffs_end: "2017-06-12"
+
+  2015-16:
+    regular_season_start: "2015-10-27"
+    regular_season_end: "2016-04-14"
+    playoffs_end: "2016-06-19"
+
+  2014-15:
+    regular_season_start: "2014-10-28"
+    regular_season_end: "2015-04-16"
+    playoffs_end: "2015-06-16"
+
+  2013-14:
+    regular_season_start: "2013-10-29"
+    regular_season_end: "2014-04-17"
+    playoffs_end: "2014-06-15"
+
+  2012-13:
+    regular_season_start: "2012-10-30"
+    regular_season_end: "2013-04-18"
+    playoffs_end: "2013-06-20"
+
+  2011-12:
+    regular_season_start: "2011-12-25"  # Lockout-shortened season
+    regular_season_end: "2012-04-27"
+    playoffs_end: "2012-06-21"
+
+  2010-11:
+    regular_season_start: "2010-10-26"
+    regular_season_end: "2011-04-14"
+    playoffs_end: "2011-06-12"
+
+  2009-10:
+    regular_season_start: "2009-10-27"
+    regular_season_end: "2010-04-15"
+    playoffs_end: "2010-06-17"
+
+  2008-09:
+    regular_season_start: "2008-10-28"
+    regular_season_end: "2009-04-17"
+    playoffs_end: "2009-06-14"
+
+  2007-08:
+    regular_season_start: "2007-10-30"
+    regular_season_end: "2008-04-17"
+    playoffs_end: "2008-06-17"
+
+  2006-07:
+    regular_season_start: "2006-10-31"
+    regular_season_end: "2007-04-19"
+    playoffs_end: "2007-06-14"
+
+  2005-06:
+    regular_season_start: "2005-11-01"
+    regular_season_end: "2006-04-20"
+    playoffs_end: "2006-06-20"
+
+  2004-05:
+    regular_season_start: "2004-11-02"
+    regular_season_end: "2005-04-21"
+    playoffs_end: "2005-06-23"
+
+  2003-04:
+    regular_season_start: "2003-10-28"
+    regular_season_end: "2004-04-15"
+    playoffs_end: "2004-06-15"
+
+  2002-03:
+    regular_season_start: "2002-10-29"
+    regular_season_end: "2003-04-17"
+    playoffs_end: "2003-06-15"
+
+  2001-02:
+    regular_season_start: "2001-10-30"
+    regular_season_end: "2002-04-18"
+    playoffs_end: "2002-06-12"
+
+  2000-01:
+    regular_season_start: "2000-10-31"
+    regular_season_end: "2001-04-19"
+    playoffs_end: "2001-06-15"
+
+  1999-00:
+    regular_season_start: "1999-11-02"
+    regular_season_end: "2000-04-20"
+    playoffs_end: "2000-06-19"
+
+  1998-99:
+    regular_season_start: "1999-02-05"  # Lockout-shortened season
+    regular_season_end: "1999-05-06"
+    playoffs_end: "1999-06-25"
+
+  1997-98:
+    regular_season_start: "1997-10-31"
+    regular_season_end: "1998-04-20"
+    playoffs_end: "1998-06-14"
+
+  1996-97:
+    regular_season_start: "1996-11-01"
+    regular_season_end: "1997-04-21"
+    playoffs_end: "1997-06-13"
+
+  1995-96:
+    regular_season_start: "1995-11-03"
+    regular_season_end: "1996-04-22"
+    playoffs_end: "1996-06-16"
+
+  1994-95:
+    regular_season_start: "1994-11-04"
+    regular_season_end: "1995-04-24"
+    playoffs_end: "1995-06-14"
+
+  1993-94:
+    regular_season_start: "1993-11-05"
+    regular_season_end: "1994-04-25"
+    playoffs_end: "1994-06-22"
+
+  1992-93:
+    regular_season_start: "1992-11-06"
+    regular_season_end: "1993-04-26"
+    playoffs_end: "1993-06-20"
+
+  1991-92:
+    regular_season_start: "1991-11-01"
+    regular_season_end: "1992-04-20"
+    playoffs_end: "1992-06-14"

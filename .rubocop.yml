@@ -1,0 +1,62 @@
+AllCops:
+  TargetRubyVersion: 3.0
+  NewCops: enable
+  Exclude:
+    - 'vendor/**/*'
+    - 'tmp/**/*'
+    - 'bin/**/*'
+
+# Relax metrics during initial cleanup
+Metrics/MethodLength:
+  Max: 50
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/ClassLength:
+  Max: 300
+
+Metrics/ModuleLength:
+  Max: 300
+
+Metrics/BlockLength:
+  Max: 50
+  Exclude:
+    - 'spec/**/*'
+    - 'config/**/*'
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/PerceivedComplexity:
+  Max: 15
+
+# Style preferences
+Style/Documentation:
+  Enabled: false  # Will enable after adding docs
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
+  AllowedPatterns:
+    - '\s*#'  # Allow long comments
+
+# Allow common Ruby patterns
+Style/NumericPredicate:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Naming/VariableNumber:
+  Enabled: false  # Allow FG3M, FG2M, etc.
+
+Naming/MethodParameterName:
+  MinNameLength: 1  # Allow single-letter params (x, y, i, etc.)
